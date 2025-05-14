@@ -3,12 +3,6 @@
 ## 📄 Description
 This program shows a basic example of how an **Asymmetric Encryption System** works using the `javax.crypto` library in Java.
 
-## 👨‍💻 Author
-**Halmuhammet Muhamedorazov**
-
-## 📅 Date
-14.05.2025
-
 ## 🧠 Summary
 You can use the **AES encryption algorithm** using the Java crypto library:
 
