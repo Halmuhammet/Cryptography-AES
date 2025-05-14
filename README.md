@@ -1,7 +1,7 @@
 # 🔐 Asymmetric Encryption System (AES Demo in Java)
 
 ## 📄 Description
-This program shows a basic example of how an **Asymmetric Encryption System** works using the `crypto` library in Java.
+This program shows a basic example of how an **Asymmetric Encryption System** works using the `javax.crypto` library in Java.
 
 ## 👨‍💻 Author
 **Halmuhammet Muhamedorazov**
