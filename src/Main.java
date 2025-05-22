@@ -2,7 +2,7 @@
  * Description: This program shows a basic example of how Assymetric Encription System works using crypto library in Java
  * Author: Halmuhammet Muhamedorazov
  * Date: 14.05.2025
- * Summary: You can use AES encription algorithm using crypto library
+ * Summary: You perform AES encryption using javax.crypto library
  *          First, generate a AES secret key
  *          Second, pass the secret key to AES cipher to with encrypt mode
  *          Finally, pass the byte version of plaintext to the cipher (AES) to encrypt
@@ -32,7 +32,7 @@ public class Main {
         String encryptedText = new String(encryptedBytes);
         System.out.println("Ciphertext After Encryption: " + encryptedText);
 
-        // Now, decrypt the message
+        // Now, decrypt the message using same secret key and with cipher set to DECRYPT_MODE
         cipher.init(Cipher.DECRYPT_MODE, cryptoKey);
         // Get the decrypted bytes
         byte[] decryptedBytes = cipher.doFinal(encryptedBytes);
